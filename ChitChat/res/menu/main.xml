@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu1"
+        android:icon="@drawable/refreshlogo5"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="refresh"/>
+    <item
+        android:id="@+id/menu2"
+        android:icon="@drawable/attach"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="attach"/>
+    
+    <item
+        android:id="@+id/menu3"
+        android:icon="@drawable/ic_launcher"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="New Group"/>
+    <item
+        android:id="@+id/menu4"
+        android:icon="@drawable/ic_launcher"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Status"/>
+    <item
+        
+        android:id="@+id/menu5"
+        android:icon="@drawable/ic_launcher"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Contact Us"/>
+    <item
+        android:id="@+id/menu6"
+        android:icon="@drawable/ic_launcher"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Settings "/>
+    
+
+</menu>

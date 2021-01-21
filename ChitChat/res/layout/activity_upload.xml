@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg13"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:hint="Browse"
+            android:text="Upload your file" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnupload"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.41"
+            android:text="Upload" />
+
+        <Button
+            android:id="@+id/btnshare"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.82"
+            android:text="Share" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+    >
+
+        <Button
+            android:id="@+id/btnbrw"
+            android:layout_width="151dp"
+            android:layout_height="wrap_content"
+            android:text="Browse" />
+
+        <Button
+            android:id="@+id/btndownload2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Download" />
+
+    </LinearLayout>
+
+</LinearLayout>

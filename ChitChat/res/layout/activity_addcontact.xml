@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AddcontactActivity"
+    android:background="@drawable/bg10"
+     >
+
+    <Button
+        android:id="@+id/btncancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="99dp"
+        android:text="Cancel" />
+
+    <Button
+        android:id="@+id/btndone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btndownload"
+        android:layout_alignBottom="@+id/btndownload"
+        android:layout_alignParentRight="true"
+        android:text="Done" />
+
+    <EditText
+        android:id="@+id/editphoneno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btncancel"
+        android:layout_marginTop="32dp"
+        android:layout_toLeftOf="@+id/btndone"
+        android:ems="10"
+        android:hint="enter phone no "
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btndone"
+        android:layout_alignTop="@+id/editphoneno"
+        android:text="Find" />
+
+    <EditText
+        android:id="@+id/editcontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editphoneno"
+        android:layout_below="@+id/btnsearch"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="enter name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editcontact"
+        android:layout_marginTop="36dp"
+        android:layout_toLeftOf="@+id/btndone"
+        android:ems="10"
+        android:hint="Emailid"
+        android:inputType="textEmailAddress" />
+
+</RelativeLayout>

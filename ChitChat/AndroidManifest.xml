@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ChitChat"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:logo="@drawable/logo2"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.ChitChat.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.ChitChat.AddcontactActivity"
+            android:label="@string/title_activity_addcontact" >
+        </activity>
+        <activity
+            android:name="com.example.ChitChat.ChatTabActivity"
+            android:label="@string/title_activity_chat_tab_" >
+        </activity>
+        <activity
+            android:name="com.example.ChitChat.SignUpActivity"
+            android:label="@string/title_activity_sign__up_" >
+        </activity>
+        <activity
+            android:name="com.example.ChitChat.ChatActivity"
+            android:label="@string/title_activity_chat_" >
+        </activity>
+        <activity
+            android:name="com.example.ChitChat.ContactActivity"
+            android:label="@string/title_activity_contact" >
+        </activity>
+        <activity
+            android:name="com.example.ChitChat.FileActivity"
+            android:label="@string/title_activity_file" >
+        </activity>
+        <activity
+            android:name="com.example.ChitChat.UploadActivity"
+            android:label="@string/title_activity_upload" >
+        </activity>
+        <activity
+            android:name="com.example.ChitChat.ReportActivity"
+            android:label="@string/title_activity_report" >
+        </activity>
+        <activity
+            android:name="com.example.ChitChat.TabActivity"
+            android:label="@string/title_activity_tab" >
+        </activity>
+        <activity
+            android:name="com.example.ChitChat.MessageViewActivity"
+            android:label="@string/title_activity_message_view" >
+        </activity>
+        <activity
+            android:name="com.example.ChitChat.HomePageActivity"
+            android:label="@string/title_activity_home_page" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

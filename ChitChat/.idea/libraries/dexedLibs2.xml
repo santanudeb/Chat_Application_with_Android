@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-0fa3a5e6db2b92e3b9002ba83dd3533d.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/httpclient-4.3.3-2247e8aa93dbca0233c1d4f25e5ec1f6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/httpclient-4.3.3-49de8c626191b9cb00d56d04a677b2c6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-4649e14111bad0815755e29e6b9cd303.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-23a677f88a8fd244f133e0c6c7ae12a1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/httpmime-4.0.1-8e7214865b887b5f1054cb6c0524043d.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-06265c1c490496d7603be86c13a2dcdf.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/httpclient-4.3.3-66a06d2a419f2a89da56a7d23df0efd3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-47911eeedfe7993e203ef9d1cf27e835.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/httpmime-4.0.1-1fe547f5978bab97ceb3e9611f4be4ca.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/httpmime-4.0.1-d4169d128b5cf8ca6a8ceaf142788daa.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

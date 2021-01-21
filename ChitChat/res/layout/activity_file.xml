@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5555"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:hint="Browse"
+            android:text="Download Files" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btndownload"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.41"
+            android:text="Download" />
+
+        <Button
+            android:id="@+id/btnshare2"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.82"
+            android:text="Share" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+    >
+
+       
+        
+    </LinearLayout>
+
+</LinearLayout>
